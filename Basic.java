@@ -124,6 +124,19 @@ public class Basic {
         }
     }
 
+    // 7. Remove Duplicate
+    public static void removeDuplicate(String s) {
+        String result = "";
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+            if (result.indexOf(ch) == -1) {
+                result += ch;
+            }
+        }
+        System.out.println(result);
+    }
+
     public static void main(String[] args) {
         // String s = "satyam";
         // reverse(s); // maytas
@@ -137,7 +150,9 @@ public class Basic {
 
         // anagram(s, "tyaams"); //It is Anagram
 
-        countFrequency("satyam");
+        // countFrequency("satyam");  //a = 2, m = 1, s = 1, t = 1, y = 1
+
+        removeDuplicate("programming");
 
     }
 }
