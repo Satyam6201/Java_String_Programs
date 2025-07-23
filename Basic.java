@@ -167,6 +167,25 @@ public class Basic {
         System.out.println("length = " + longest.length());
     }
 
+    //10. First Non-Repeating Character
+    public static void FirstNonRepeatingChar (String s) {
+        char result = '\0';
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            if (s.indexOf(ch) == s.lastIndexOf(ch)) {
+                result = ch;
+                break;
+            }
+        }
+        if (result == '\0') {
+            System.out.println("None");
+        }
+        else {
+            System.out.println("First repetaing char = " + result);
+        }
+    }
+
     public static void main(String[] args) {
         // String s = "satyam";
         // reverse(s); // maytas
@@ -186,7 +205,9 @@ public class Basic {
 
         // CapticalFirstLetter("java is a programming language"); // Java Is A Programming Language 
 
-        longestWord("java is a programming language");  // programming, length = 11
+        // longestWord("java is a programming language");  // programming, length = 11
+
+        FirstNonRepeatingChar("aabcbadssdfcfde");
 
     }
 }
