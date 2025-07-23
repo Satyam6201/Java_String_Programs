@@ -207,7 +207,7 @@ public class Basic {
 
         // longestWord("java is a programming language");  // programming, length = 11
 
-        FirstNonRepeatingChar("aabcbadssdfcfde");
+        FirstNonRepeatingChar("aabcbadssdfcfde");  // First repetaing char = e
 
     }
 }
