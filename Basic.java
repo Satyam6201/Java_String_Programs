@@ -137,6 +137,22 @@ public class Basic {
         System.out.println(result);
     }
 
+    // 8. Captical First letter
+    public static void CapticalFirstLetter(String s) {
+        String result = "";
+
+        String words[] = s.split(" ");
+
+        for (int i = 0; i < words.length; i++) {
+            String word = words[i];
+
+            if (!word.isEmpty()) {
+                result += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " ";
+            }
+        }
+        System.out.println(result);
+    }
+
     public static void main(String[] args) {
         // String s = "satyam";
         // reverse(s); // maytas
@@ -152,7 +168,9 @@ public class Basic {
 
         // countFrequency("satyam");  //a = 2, m = 1, s = 1, t = 1, y = 1
 
-        removeDuplicate("programming");
+        // removeDuplicate("programming");
+
+        CapticalFirstLetter("java is a programming language");
 
     }
 }
