@@ -9,3 +9,22 @@ JavaStringPractice/
 └── strings/
 └── Basic.java
 ```
+
+## 📌 Topics Covered
+
+- String creation and comparison
+- String methods (e.g., `length()`, `charAt()`, `substring()`)
+- String reversal
+- Palindrome check
+- Anagram detection
+- Frequency of characters
+- Removing duplicates
+- Capitalizing words
+- Pattern matching (basic)
+
+## 🚀 How to Run
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/your-username/JavaStringPractice.git
