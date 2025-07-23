@@ -141,7 +141,7 @@ public class Basic {
     public static void CapticalFirstLetter(String s) {
         String result = "";
 
-        String words[] = s.split(" ");
+        String words[] = s.split(" "); // java  is a => "java" "is" "a"
 
         for (int i = 0; i < words.length; i++) {
             String word = words[i];
@@ -151,6 +151,20 @@ public class Basic {
             }
         }
         System.out.println(result);
+    }
+
+    // 9. Longest word in the sentence 
+    public static void longestWord(String s) {
+        String words[] = s.split(" ");
+        String longest = "";
+
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].length() > longest.length()) {
+                longest = words[i];
+            }
+        }
+        System.out.println(longest);
+        System.out.println("length = " + longest.length());
     }
 
     public static void main(String[] args) {
@@ -168,9 +182,11 @@ public class Basic {
 
         // countFrequency("satyam");  //a = 2, m = 1, s = 1, t = 1, y = 1
 
-        // removeDuplicate("programming");
+        // removeDuplicate("programming"); // progamin
 
-        CapticalFirstLetter("java is a programming language");
+        // CapticalFirstLetter("java is a programming language"); // Java Is A Programming Language 
+
+        longestWord("java is a programming language");  // programming, length = 11
 
     }
 }
