@@ -28,3 +28,10 @@ JavaStringPractice/
 
 ```bash
 git clone https://github.com/your-username/JavaStringPractice.git
+```
+
+🧠 Purpose
+This project is a part of my Java revision journey and serves as a reference for common string-based interview questions and practice.
+
+👨‍💻 Author
+Satyam Kumar Mishra
