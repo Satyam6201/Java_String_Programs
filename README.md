@@ -4,3 +4,8 @@ This repository contains Java programs focused on **string manipulation and oper
 
 ## 📁 Folder Structure
 
+```
+JavaStringPractice/
+└── strings/
+└── Basic.java
+```
