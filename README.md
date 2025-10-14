@@ -22,13 +22,7 @@ JavaStringPractice/
 - Capitalizing words
 - Pattern matching (basic)
 
-## 🚀 How to Run
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/your-username/JavaStringPractice.git
-```
+--- 
 
 🧠 Purpose
 This project is a part of my Java revision journey and serves as a reference for common string-based interview questions and practice.
