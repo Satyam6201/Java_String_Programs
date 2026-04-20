@@ -3,7 +3,6 @@ package strings;
 public class Basic {
 
     //1.Reverse the String 
-
     public static void reverse(String s) {  // 2 pointer Approach
         // Convert string to character array for in-place operations
         char word[] = s.toCharArray();
@@ -24,7 +23,6 @@ public class Basic {
     }
 
     //2.reverse words in a sentence
-
     public static void reverseSentence(String s) {
         String word[] = s.split(" ");
 
@@ -36,7 +34,6 @@ public class Basic {
     }
 
     //3.palindrome
-
     public static void isPalindrome(String s) {
         boolean isPalindrome = true;
         int length = s.length();
